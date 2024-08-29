@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  resize: both;
+  overflow: auto;
+}
+
+.popover {
+  width: fit-content;
+  height: fit-content;
+  padding: 1em;
+  background-color: #efefef;
+  border: 1px solid #bbb;
+  border-radius: 0.1em;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+:popover-open {
+  position: absolute;
+  inset: unset;
+  margin: 0;
+}
